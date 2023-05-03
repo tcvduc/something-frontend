@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layer {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(134, 176, 254, 0.844);
+}
+
+.square {
+  --size: 200px;
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid #000;
+  background-color: blanchedalmond;
+  cursor: pointer;
+  margin: 24px;
+}
+
+.square:active {
+  background-color: #000000ca;
+}
