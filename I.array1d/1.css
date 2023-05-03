@@ -21,6 +21,7 @@
   background-color: blanchedalmond;
   cursor: pointer;
   margin: 24px;
+  position: fixed;
 }
 
 .square:active {
